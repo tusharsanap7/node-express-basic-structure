@@ -1,0 +1,22 @@
+{
+  "name": "ace_vms",
+  "version": "0.0.1",
+  "description": "visitor management system",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "ACE Credutech",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.4",
+    "couchbase": "^2.4.1",
+    "express": "^4.16.2",
+    "hawk": "^7.0.5",
+    "joi": "^13.0.1",
+    "neo-async": "^2.5.0",
+    "request": "^2.83.0",
+    "require-tree": "^1.1.1"
+  }
+}
